@@ -1,0 +1,24 @@
+#include<stdio.h>
+void main()
+{
+    int yr;
+    printf("Enter Car Manufacturing Year ");
+    scanf("%d",&yr);
+    if(yr>=2017 || yr<=2021)
+    {
+        printf("Price of Car is between 7 lakhs to 8 lakhs");
+    }
+    else if(yr>=2014 || yr<=2016)
+    {
+        printf("Price of Car is between 5 lakhs to 7 lakhs");
+    }
+    else if(yr>=2012 || yr<=2014)
+    {
+        printf("Price of Car is between 3 lakhs to 5 lakhs");
+    }
+    
+    else
+    {
+        printf("Price of Car is between 1 lakhs to 3 lakhs");
+    }
+}
